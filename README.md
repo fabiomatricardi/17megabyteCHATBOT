@@ -2,6 +2,8 @@
 
 This repository contains the implementation details and code for the "17megabyteCHATBOT", a lightweight, efficient chatbot powered by the 'ms-marco-TinyBERT-L-2' model, as described in Fabio Matricardi's article on medium.com. The chatbot utilizes semantic search and a Cross-Encoder architecture to understand user queries and deliver accurate responses, making it an excellent solution for small websites or businesses looking to incorporate AI without the overhead of large models.
 
+![17megabyteCHATBOT](17megabyteCHATBOT_gradio.png)
+
 ## Features
 
 - **Semantic Understanding**: Uses the 'ms-marco-TinyBERT-L-2' model to understand the context and semantics of user queries.
