@@ -9,7 +9,7 @@ import sys
 model = None
 
 parser = argparse.ArgumentParser(description='Semantic Search chatbot')
-parser.add_argument('--knowledge-base','-k', type=str, help='Path to the knowledge base file in jsonl format', default='faq.jsonl')
+parser.add_argument('--knowledge-base','-k', type=str, help='Path to the knowledge base file in jsonl format', default='17megabot.jsonl')
 parser.add_argument('--examples','-e', choices=['0','1','2','3'], help='Number of examples to show in the chat interface', default='3')
 parser.add_argument('--wipe-cache','-w', action='store_true', help='Wipe the cache of the chat interface', default=False)
 parser.add_argument('--share','-s', action='store_true', help='Enable the share button in the chat interface', default=False)
