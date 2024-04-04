@@ -1,3 +1,3 @@
 #!/bin/bash
 . venv/bin/activate
-python main_docker.py $@
+./venv/bin/python3 main_docker.py $@
