@@ -397,9 +397,13 @@ code {
 <ol start="4">
 <li>For the Gradio application you need to install the following package:</li>
 </ol>
-<pre class="hljs"><code><div>pip install gradio jsonlines
+<pre class="hljs"><code><div>pip install sentence_transformers gradio jsonlines
 </div></code></pre>
 <p>Note: This will also automatically install <code>torch</code> and <code>transformers</code>, which are dependencies of <code>sentence_transformers</code>.</p>
+<h2 id="docker">Docker</h2>
+<p>Run the script <code>run_docker.sh</code> to build and run the Docker container with the chatbot. The script will build the Docker image and run the container, exposing the chatbot on port 7860.</p>
+<pre class="hljs"><code><div>sh run_docker.sh
+</div></code></pre>
 <h2 id="usage">Usage</h2>
 <p>To use the chatbot, run the provided Python script. The script will initiate a chat interface where you can input your queries, and the chatbot will respond with the most relevant answers from the curated dataset.</p>
 <pre class="hljs"><code><div>python main.py

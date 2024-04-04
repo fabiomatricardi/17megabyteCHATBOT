@@ -33,10 +33,18 @@ pip install sentence_transformers rich
 
 4. For the Gradio application you need to install the following package:
 ```bash
-pip install gradio jsonlines
+pip install sentence_transformers gradio jsonlines
 ```
 
 Note: This will also automatically install `torch` and `transformers`, which are dependencies of `sentence_transformers`.
+
+## Docker
+Run the script `run_docker.sh` to build and run the Docker container with the chatbot. The script will build the Docker image and run the container, exposing the chatbot on port 7860.
+
+```bash
+sh run_docker.sh
+```
+
 
 ## Usage
 
